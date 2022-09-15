@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: #D0FFCE;
     line-height: 1.5;
     margin: 0;
     display: grid;
@@ -15,22 +15,22 @@ header{
 main{
     grid-column: 1/2;
     grid-row: 2/4; 
-    margin: 10px 20px ;
+    margin: 0 20px ;
 }
 aside{
     grid-column: 2/3;
     grid-row: 2/4;
-    margin: 10px;
+    margin: 0 10px;
 }
 footer{
     grid-column: 1/3;
     grid-row: 4/5;
-    margin: 15px 0 0 0;
+    margin: 5% 0 0 0;
     padding: 15px;
-    background-color: #999;
+    background-color: #635d5c;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 #logo{
     width : 80px;
@@ -44,22 +44,23 @@ main img{
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 1100px;
   position: relative;
   margin: auto;
 }
 
 /* Caption text */
 .text {
-  color: black;
+  color: white;
   font-size: 25px;
+  margin: auto;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width: 90%;
   text-align: center;
   font-weight: bold;
-  text-shadow: white;
+  text-shadow: black;
 }
 
 /* Number text (1/3 etc) */
@@ -97,7 +98,7 @@ header ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3d2b3d;
 }
 header li {
     float: left;
@@ -120,7 +121,7 @@ header li a:hover:not(.active) {
   }
   
 .active {
-    background-color: #04AA6D;
+    background-color: #9b1d20;
   }
 #githublink{
     float: right;
@@ -132,10 +133,10 @@ section{
 }
 section a{
     text-decoration: none;
-    color: rgb(1, 71, 48);
+    color: #9b1d20;
 }
 section a:hover{
-    color: #999;
+    color: #635d5c;
 }
 .post-info{
     font-style: italic;
@@ -156,12 +157,15 @@ aside img{
 }
 footer a{
     text-decoration: none;
-    color: black;
+    color: white;
 
+}
+footer a:hover{
+  color: #6c242f;
 }
 footer p{
     text-align: center;
-    color: black;
+    color: white;
 }
 footer ul{
     display: block;
@@ -169,13 +173,20 @@ footer ul{
     text-align: left;
 }
 footer p{
-  margin: 0;
+  margin: 100% 0 0;
   text-shadow: white;
+  font-size: small;
+  text-align: center;
 }
 .socialMedia img{
-  background-color: #04AA6D;
   display: flex;
   flex-direction: column;
   margin-top: 20px ;
   padding: 0 10px 20px 0;
+}
+#gotop {
+  margin-top: 0%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
 }
