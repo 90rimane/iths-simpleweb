@@ -48,17 +48,11 @@ header li a:hover:not(.active) {
   background-color: #111;
 }
 
-
 #githublink{
   float: right;
 }
-#archive-title{
-padding-left: 10px;
-}
-
 
 /*************Main*************/
-
 main{
   grid-column: 1/2;
   grid-row: 2/4; 
@@ -143,8 +137,8 @@ aside a:hover, section a:hover{
   display: none;
 }
 .post button{
-  padding: 10px;
-  background-color: #9b1d20;
+  padding: 7px;
+  background-color: #831c1d;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -153,6 +147,9 @@ aside a:hover, section a:hover{
   font-size: 28px;
   color: #9b1d20;
   text-align: center;
+}
+#archive-title{
+  padding-left: 10px;
 }
 
 /********Side bar********/
