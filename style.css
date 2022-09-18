@@ -15,6 +15,25 @@ header{
     grid-row: 1/2;
     margin: 0;
 }
+.topOfTitle{
+  display:flex;
+}
+.searchEngine{
+  margin: 0;
+  padding: 5px 13px;
+  display: flex;
+  align-items: flex-end;
+}
+.searchEngine input{
+  padding: 7px;
+  border: solid 1px;
+}
+.searchEngine button{
+  border: solid #6c242f;
+  padding: 5px;
+  background-color:#6c242f ;
+  color: white;
+}
 #logo{
   margin: 5px auto 5px 2%;
   width : 80px;
@@ -47,7 +66,9 @@ header li a {
 header li a:hover:not(.active) {
   background-color: #111;
 }
-
+header form{
+  padding: 15px;
+}
 #githublink{
   float: right;
 }
@@ -259,7 +280,7 @@ footer p{
 
   #logo{
     display: block;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
     width : 100px;
     height: 100px;
@@ -268,7 +289,7 @@ footer p{
     float:inherit;
   }
   #githublink{
-    float:none;
+    float: unset;
   }
   body{
     display: flex;
