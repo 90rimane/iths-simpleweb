@@ -229,7 +229,8 @@ footer a{
 
 }
 footer a:hover{
-  color: #6c242f;
+  color: #999;
+  opacity: .5;
 }
 footer p{
     text-align: center;
@@ -253,12 +254,14 @@ footer p{
   margin: 10px;
   padding: 10px;
 }
+
 #gotop {
   margin-top: 0%;
   text-align: center;
   width: 40px;
   height: 40px;
 }
+
 @media only screen and (min-width: 601px) and (max-width:900px)
 {
   body{
