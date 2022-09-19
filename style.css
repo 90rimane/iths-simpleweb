@@ -15,8 +15,17 @@ header{
     grid-row: 1/2;
     margin: 0;
 }
+#titleOfPage{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  display: flex;
+  margin-left: 0;
+  margin-right: auto;
+  text-shadow: 3px 5px 5px #999;
+}
 .topOfTitle{
-  display:flex;
+  display: flex;
+  padding-left: 15px;
 }
 .searchEngine{
   margin: 0;
@@ -29,8 +38,8 @@ header{
   border: solid 1px;
 }
 .searchEngine button{
-  border: solid #6c242f;
-  padding: 5px;
+  border: solid 1px #6c242f;
+  padding: 7px;
   background-color:#6c242f ;
   color: white;
 }
@@ -278,22 +287,29 @@ footer p{
 
 @media only screen and (max-width:600px){
 
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .topOfTitle{
+    display: block;
+    text-align: right;
+  }
+  #titleOfPage{
+    justify-content: center;
+  }
   #logo{
     display: block;
-    margin-left: 10px;
-    margin-right: auto;
-    width : 100px;
-    height: 100px;
+    margin: 10px auto;
+  }
+  .searchEngine{
+    display: block;
   }
   header li {
     float:inherit;
   }
   #githublink{
     float: unset;
-  }
-  body{
-    display: flex;
-    flex-direction: column;
   }
   .container{
     position:relative;
