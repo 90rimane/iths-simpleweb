@@ -98,7 +98,7 @@ main img{
 }
 
 .container{
-  position:relative;
+  position: relative;
   transform: translate(-50%,-40%);
   top: 40%;
   left: 50%;
