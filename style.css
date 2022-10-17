@@ -3,6 +3,7 @@ body{
     background-color: #eefded;
     line-height: 1.5;
     margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 5fr 1fr;    
@@ -185,11 +186,15 @@ aside a:hover, section a:hover{
 
 /********Side bar********/
 aside{
+  display: block;
+  width: 100%;
+  height: auto;
   grid-column: 2/3;
   grid-row: 2/4;
-  margin-top: 20px;
+  margin: 10px auto;
 }
 aside article{
+  width: 75%;
   background-color: white;
   margin: 0 10% 20px 0 ;
   padding: 8%;
@@ -276,11 +281,12 @@ footer p{
     margin-top: 40px;
   }
   aside{
-    margin: 20px 6.7% 20px 4%;
+    margin: 8% 0;
   }
   aside article{
-    width: 100%;
+    width: 76%;
     height: auto;
+    margin-left: 4%;
   }
   aside img{
     width: 300px;
@@ -325,6 +331,8 @@ footer p{
   }
   main{
     margin-top: 40px;
+    margin-left: 2%;
+    padding-left: 4%;
   }
   .article-title{
     font-size: large;
@@ -335,10 +343,11 @@ footer p{
     font-size: large;
   }
   aside{
-    margin: 20px 8% 20px 4%;
+    margin: 20px 0;
+    padding-left: 5%;
   }
   aside article{
-    width: 100%;
+    width: 76%;
     height: auto;
   }
   aside img{
